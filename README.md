@@ -1,19 +1,19 @@
 <div align="center">
 
-# 🏎️ meanwhile
-### *where words become velocity.*
+# meanwhile
+### *designed for mindful speed and focus.*
 
-A minimalist, high-fidelity 3D typing racer crafted with React, Three.js, and procedural sound.  
-Pilot sports cars through coastal sunsets, alpine mist, and twilight avenues—powered entirely by your typing rhythm.
+A 3D typing racer that turns keystrokes into velocity.  
+No clunky menus, no fluff—just precision cars, literary passages, and curated asphalt.
 
-[**Play the Game Live ↗**](https://meanwhile-phi.vercel.app/)
+[**Launch Game ↗**](https://meanwhile-typing-game.vercel.app/)
 
 <br />
 
-[![Live Demo](https://img.shields.io/badge/Demo-meanwhile--phi.vercel.app-f59e0b?style=for-the-badge&logo=vercel&logoColor=white)](https://meanwhile-phi.vercel.app/)
-[![Three.js](https://img.shields.io/badge/Three.js-R3F-black?style=for-the-badge&logo=three.js&logoColor=white)](https://threejs.org/)
-[![React](https://img.shields.io/badge/React-19-61DAFB?style=for-the-badge&logo=react&logoColor=black)](https://react.dev/)
-[![PRs Welcome](https://img.shields.io/badge/PRs-Welcome-emerald?style=for-the-badge&logo=github)](https://github.com/rishirithesh/meanwhile/pulls)
+[![Live](https://img.shields.io/badge/play-meanwhile--typing--game.vercel.app-f59e0b?style=flat-square)](https://meanwhile-typing-game.vercel.app/)
+[![Three.js](https://img.shields.io/badge/three.js-r3f-black?style=flat-square)](https://threejs.org/)
+[![React](https://img.shields.io/badge/react-19-black?style=flat-square)](https://react.dev/)
+[![PRs](https://img.shields.io/badge/prs-welcome-black?style=flat-square)](https://github.com/rishirithesh/meanwhile/pulls)
 
 </div>
 
@@ -21,80 +21,54 @@ Pilot sports cars through coastal sunsets, alpine mist, and twilight avenues—p
 
 ---
 
-## ✨ The Experience
-
-- **⚡ Keystrokes to Horsepower** — Clean typing translates directly to engine RPM, real-time acceleration, and dynamic 6-speed transmission shifts up to 300+ KM/H.
-- **🌊 Mindful Flow** — Natural cadence decay replaces jarring stops; pause without cliff-dropping your pace, finding rhythm in every paragraph.
-- **🏁 Curated Circuits** — From the golden sunset of Chennai's Marina coastline to the rain-slicked reflection of New Delhi's Rajpath.
-- **📖 Literary Soul** — Race through excerpts from classic literature, timeless anthems, and automotive journalism.
-- **👥 Real-time Grids** — Jump into Quick Race against intelligent AI bots or host private multiplayer rooms with custom room codes.
-- **🔊 Synthesized Acoustics** — 100% procedural Web Audio engine; zero external audio files, tactile mechanical key clacks, and responsive exhaust notes.
+> *a little escape, in your meantime.*
 
 ---
 
-## 🗺️ Curated Circuits
+## The Vibe
 
-| Circuit | Location | Mood & Atmosphere |
-|---|---|---|
-| **01** | **Mountain Pass** | Alpine hairpins, lush evergreen forests & waterfall mist |
-| **02** | **Coastal Run** | Mediterranean cliffside highway, sea breeze & sunset waves |
-| **03** | **Snow Circuit** | Frozen summits, glacial reflections & alpine chill |
-| **04** | **Neon City** | Cyberpunk elevated flyovers beneath glowing skyscrapers |
-| **05** | **Chennai Marina Drive** | Red-brick clock tower, Bay of Bengal sun & swaying palms |
-| **06** | **New Delhi Rajpath** | India Gate archway, illuminated dome & wet mirror asphalt |
+- **Keystrokes to RPM** — Clean typing revs the engine; hesitation coasts you down naturally. No abrupt cliff-drops, just flow state up to 300+ KM/H.
+- **6 Handcrafted Circuits** — Alpine hairpins, Mediterranean cliffs, cyberpunk flyovers, glacier peaks, Chennai Marina Drive at sunset, and New Delhi's Rajpath under twilight.
+- **Words That Matter** — Excerpts from classic literature, late-night driving essays, and timeless anthems instead of generic gibberish.
+- **Pure Procedural Audio** — Mechanical key clacks and exhaust hums synthesized 100% in Web Audio. Zero external audio assets.
+- **Solo or Live Grid** — Race against adaptive bots in Quick Race, or spin up a 6-letter room code for instant peer-to-peer multiplayer.
 
 ---
 
-## 🛠️ Stack
-
-- **Graphics:** React Three Fiber (`@react-three/fiber`), Drei, Three.js
-- **Frontend:** React 19, Tailwind CSS, Framer Motion, Lucide Icons
-- **State & Physics:** Zustand
-- **Sound:** Web Audio API (Synthesized & Zero-Dependency)
-- **Multiplayer & Data:** Supabase Realtime & PostgreSQL
-
----
-
-## ⚡ Quick Start
+## Quickstart
 
 ```bash
-# Clone the repository
 git clone https://github.com/rishirithesh/meanwhile.git
 cd meanwhile/client
-
-# Install dependencies & run
 npm install
 npm run dev
 ```
 
-Open [http://localhost:5173](http://localhost:5173) in your browser.
+Visit `http://localhost:5173`. Start typing to accelerate.
 
 ---
 
-## 🤝 Join the Grid — Contributions Welcome!
+## Stack
 
-We want **meanwhile** to be the cleanest, most satisfying open-source racing and typing experience on the web. Whether you are a 3D artist, frontend designer, sound enthusiast, or speed typist, **your contributions are warmly welcome!**
+React 19 · Three.js / React Three Fiber · Tailwind CSS · Zustand · Supabase Realtime
 
-### 💡 Ideas for Pull Requests:
-- 🗺️ **New 3D Environments:** Design new circuits (e.g., Tokyo Expressway, Monaco Harbor, Bangalore Silicon Flyover).
-- 🏎️ **Vehicle Models & Liveries:** Add low-poly car bodies, rims, retro sports cars, or unique shaders.
-- 🎨 **Visual Effects:** Dynamic weather (monsoon rain, falling cherry blossoms), tire smoke, or lens flares.
-- 📚 **Corpus & Modes:** Curate inspiring passages, new language support, or ghost-car time trials.
-- 🎧 **Soundscapes:** Tune Web Audio synthesizers for distinct engine notes and ambient environmental sounds.
+---
 
-### 🚀 How to Contribute:
-1. **Fork** the repository.
-2. Create your feature branch (`git checkout -b feature/tokyo-circuit`).
-3. Commit your changes (`git commit -m "feat: add tokyo night circuit"`).
-4. Push to the branch (`git push origin feature/tokyo-circuit`).
-5. **Open a Pull Request** — describe what you built, attach a screenshot or video, and let's get it merged!
+## Join the Grid
+
+Have a wild idea? We love pull requests.
+
+- **Dream up a track:** Tokyo midnight loop, Monaco harbor, or monsoon highways.
+- **Drop in machines:** Low-poly bodies, retro wedges, or custom shader finishes.
+- **Curate words:** Add quotes and passages that feel great to type at 200 KM/H.
+- **Tweak audio & physics:** Make keypresses and car handling feel even more tactile.
+
+Fork the repo, craft your feature branch, and open a PR.
 
 ---
 
 <div align="center">
 
-*“A little escape, in your meantime.”*
-
-Distributed under the MIT License. Crafted with passion.
+MIT License · Built with care.
 
 </div>
